@@ -9,7 +9,7 @@ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control 
 
 
 # installing aiv packages from github
-cd ~/catkin_ws/src
+mkdir ~/catkin_ws/src
 git clone https://github.com/Shashika007/autonomous-interligent-vehicle-repo-version-2.git
 cd ~/catkin_ws
 catkin_make
